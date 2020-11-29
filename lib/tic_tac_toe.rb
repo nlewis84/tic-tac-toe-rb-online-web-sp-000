@@ -83,6 +83,7 @@ def over?(board)
 end
 
 def winner(board)
+  binding.pry
   if winning_combo = won?(board)
     board[winning_combo.first]
   end
