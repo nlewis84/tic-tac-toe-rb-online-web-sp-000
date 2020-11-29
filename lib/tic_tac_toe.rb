@@ -88,10 +88,6 @@ def winner(board)
   end
 end
 
-# until the game is over
-#  take turns
-# end
-
 # if the game was won
 #   congratulate the winner
 # else if the game was a draw
